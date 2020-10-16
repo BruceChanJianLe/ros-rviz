@@ -20,6 +20,9 @@ rviz
 ```
 
 ## Running RViz with roslaunch
+
+This roslaunch script launches rviz with default configurations. The default configuration can usually be found here `/opt/ros/melodic/share/rviz/default.rviz`.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
