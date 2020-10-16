@@ -20,5 +20,11 @@ rviz
 ```
 
 ## Running RViz with roslaunch
-```yaml
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz"/>
+
+</launch>
 ```
