@@ -31,3 +31,14 @@ This roslaunch script launches rviz with default configurations. The default con
 
 </launch>
 ```
+
+## Running RViz with saved configuration
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz"/>
+
+</launch>
+```
