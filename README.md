@@ -19,7 +19,13 @@ rosrun rviz rviz
 rviz
 ```
 
-## Running RViz with roslaunch
+## Running RViz from terminal with custom configuration
+
+```bash
+rosrun rviz rviz -d `rospack find ros-rviz`/rviz/config.rviz
+```
+
+## Running RViz from roslaunch
 
 This roslaunch script launches rviz with default configurations. The default configuration can usually be found here `/opt/ros/melodic/share/rviz/default.rviz`.
 
@@ -32,13 +38,13 @@ This roslaunch script launches rviz with default configurations. The default con
 </launch>
 ```
 
-## Running RViz with saved configuration
+## Running RViz from roslaunch with custom configuration
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
 
-    <node pkg="rviz" type="rviz" name="rviz"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros-rviz)/rviz/config.rviz"/>
 
 </launch>
 ```
