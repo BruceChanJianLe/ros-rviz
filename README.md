@@ -48,3 +48,7 @@ This roslaunch script launches rviz with default configurations. The default con
 
 </launch>
 ```
+
+## Reference to RViz Development
+
+https://github.com/ros2/rviz/blob/ros2/docs/plugin_development.md
